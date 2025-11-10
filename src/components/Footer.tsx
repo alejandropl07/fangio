@@ -3,9 +3,9 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/X";
+import Instagram from "@mui/icons-material/Instagram";
+import WhatsApp from "@mui/icons-material/WhatsApp";
+import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 import "react-toastify/dist/ReactToastify.css";
 import Typography from "@mui/material/Typography";
 
@@ -46,29 +46,29 @@ export default function Footer() {
           <IconButton
             color="inherit"
             size="small"
-            href="https://multisoft.com"
+            href="https://www.instagram.com/fangiohabana/"
             aria-label="Facebook"
             sx={{ alignSelf: "center" }}
           >
-            <FacebookIcon />
+            <Instagram />
           </IconButton>
           <IconButton
             color="inherit"
             size="small"
-            href="https://multisoft.com"
-            aria-label="X"
+            href="https://wa.me/5358746051"
+            aria-label="WhatsApp"
             sx={{ alignSelf: "center" }}
           >
-            <TwitterIcon />
+            <WhatsApp />
           </IconButton>
           <IconButton
             color="inherit"
             size="small"
-            href="https://multisoft.com"
-            aria-label="LinkedIn"
+            href="https://drive.google.com/drive/folders/1PKooEZM1n9pjkY5JEp3C8gw9xxJaimS_"
+            aria-label="Menu"
             sx={{ alignSelf: "center" }}
           >
-            <LinkedInIcon />
+            <RestaurantMenuIcon />
           </IconButton>
         </Stack>
       </Stack>
@@ -84,29 +84,29 @@ export default function Footer() {
           <IconButton
             color="inherit"
             size="small"
-            href="https://multisoft.com"
+            href="https://www.instagram.com/asia_cuba/"
             aria-label="Facebook"
             sx={{ alignSelf: "center" }}
           >
-            <FacebookIcon />
+            <Instagram />
           </IconButton>
           <IconButton
             color="inherit"
             size="small"
-            href="https://multisoft.com"
-            aria-label="X"
+            href="https://wa.me/5350956929"
+            aria-label="WhatsApp"
             sx={{ alignSelf: "center" }}
           >
-            <TwitterIcon />
+            <WhatsApp />
           </IconButton>
           <IconButton
             color="inherit"
             size="small"
-            href="https://multisoft.com"
+            href="https://asiadecubarestaurante.com"
             aria-label="LinkedIn"
             sx={{ alignSelf: "center" }}
           >
-            <LinkedInIcon />
+            <RestaurantMenuIcon />
           </IconButton>
         </Stack>
       </Stack>
