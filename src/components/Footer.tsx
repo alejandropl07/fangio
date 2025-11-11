@@ -24,16 +24,28 @@ export default function Footer() {
       textAlign: { sm: "center", md: "left" },
     }}
   >
+    <div
+        className="title-section text-start text-sm-center "
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
+        <h1 className="mt-5">
+          nuestras <span>redes</span>
+        </h1>
+        <span className="title-bg">Redes</span>
+      </div>
     <Box
       sx={{
         display: "flex",
         justifyContent: "space-between",
-        pt: { xs: 1, sm: 3 },
+        pl: { xs: 1, sm: 3 },
+        pr: { xs: 1, sm: 3 },
         width: "100%",
         borderTop: "1px solid",
         borderColor: "divider",
       }}
     >
+      
       {/* Primer bloque con encabezado */}
       <Stack direction="column" sx={{ mr: 10 }}>
         <Typography

@@ -12,41 +12,7 @@ interface Services {
 }
 
 const Services = () => {
-  //   const { blogs } = useAppSelector((state) => state.blog);
-  const [services, setServices] = useState<Services[]>([]);
-  const dispatch = useAppDispatch();
-
-  const fetchBlogs = async () => {
-    try {
-      const response = await fetch("/api/services");
-      if (!response.ok) {
-        throw new Error("Error al obtener los servicios");
-      }
-      const data = await response.json();
-      //   dispatch(fetchBlog(data));
-      setServices(data);
-      return data;
-    } catch (error) {
-      console.error("Error al obtener los servicios:", error);
-      throw error; // Re-lanzar el error para manejarlo en otro lugar si es necesario
-    }
-  };
-
-  // const uploadsDir = path.join(process.cwd(), 'uploads');
-  // console.log(uploadsDir)
-
-  useEffect(() => {
-    Modal.setAppElement("#modal");
-    const getBlogs = async () => {
-      try {
-        const result = await fetchBlogs();
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    getBlogs();
-  }, []);
-
+  
   return (
     <>
       <div
@@ -58,15 +24,6 @@ const Services = () => {
           nuestras <span>redes</span>
         </h1>
         <span className="title-bg">Redes</span>
-      </div>
-      <div className="container" data-aos="fade-up" data-aos-duration="1200">
-        {/*  Articles Starts  */}
-        <div className="row">
-          <div className="row" id="modal">
-            
-          </div>
-        </div>
-        {/* Articles Ends */}
       </div>
     </>
   );

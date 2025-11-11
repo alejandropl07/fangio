@@ -14,9 +14,16 @@ import { useAppSelector } from "@/src/redux/hooks";
 const heroContent = {
   heroImage: "/assets/img/hero/dark.png",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Multisoft",
+  heroTitleName: "Dos experiencias que enamoran: Asia de Cuba & Fangio Habana",
   heroDesignation: "",
-  heroDescriptions: `Multisoft SRL, fundada el 22 de febrero de 2024, se especializa en la implantación de sistemas ERP, particularmente Magnus ERP – SAGE 500, en colaboración con MultiConsulting S.A de C.V. Utilizando su metodología IMPROVE (Impacto en la Productividad y Ventajas Estratégicas) para ofrecer consultoría, implantación y verticalización del ERP.`,
+  heroDescriptions: `Es un verdadero placer presentarles dos espacios que celebran la magia de la gastronomía desde miradas distintas, pero igualmente memorables: Asia de Cuba y Fangio Habana. Ambos nacen del deseo de crear momentos que permanezcan, de ofrecer sabores que conecten con la emoción y de recibir a cada invitado con un sentido profundo de hospitalidad y excelencia.
+
+Asia de Cuba es un viaje sensorial donde Oriente y el Caribe se encuentran con armonía y sorpresa. Sus platos, llenos de color, textura y energía, despiertan curiosidad y entusiasmo desde el primer bocado. Es un lugar que vibra: moderno, luminoso, pensado para quienes disfrutan descubrir nuevos sabores sin renunciar a la calidez de lo local.
+
+Fangio Habana, en cambio, abraza la elegancia serena y el encanto de lo clásico. Su cocina reinterpreta tradiciones con un respeto profundo por el buen gusto, ofreciendo creaciones que reconfortan, emocionan y despiertan nostalgia. Es un espacio donde el tiempo parece detenerse, donde cada detalle —del servicio al ambiente— está concebido para que los comensales se sientan cuidados y apreciados.
+
+Juntos, estos dos restaurantes prometen regalar experiencias que conmuevan, inspiren y reúnan. Les invitamos a descubrirlos y a dejarse sorprender por la sensibilidad, el sabor y la dedicación que los hacen únicos.`,
+
   // heroBtn: "Más sobre nosotros",
 };
 
@@ -52,11 +59,17 @@ const HomePage = () => {
                   alt="hero man"
                   // style={{width:'100%',height:'100%'}}
                 />
-                <h1 className="text-uppercase poppins-font">
+                <h1 className="text-uppercase poppins-font mt-10">
                   {heroContent.heroTitleName}
                   <span>{heroContent.heroDesignation}</span>
                 </h1>
-                <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+
+                <p
+                  className="open-sans-font p-3"
+                  style={{ whiteSpace: "pre-line" }}
+                >
+                  {heroContent.heroDescriptions}
+                </p>
                 {/* <button
                   className="button"
                   onClick={toggleModalOne}
@@ -95,7 +108,6 @@ const HomePage = () => {
           {/* End  Modal for About More */}
         </div>
       </div>
-      <Services/>
       <Footer />
     </>
   );
