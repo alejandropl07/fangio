@@ -461,6 +461,13 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   padding: 80px 0;
 }
 
+@media (max-width: 991px) {
+  .title-section {
+    margin-top: 400px;
+
+  }
+}
+
 .title-section h1 {
   font-size: 56px;
   font-weight: 900 !important;
@@ -1152,8 +1159,7 @@ body.light .contact .custom-span-contact a {
   transition: 0.3s;
 }
 
-.contact .contactform input[type="date"]
-{
+.contact .contactform input[type="date"] {
   border: 1px solid #111;
   width: 90%;
   background: #252525;
@@ -1490,8 +1496,8 @@ body.light .contact .custom-span-contact a {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 5px 0;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
 
   #menuToggle > span:first-child {

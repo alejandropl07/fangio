@@ -1,14 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import Modal from "react-modal";
 import heroImgMobile from "@/public/assets/img/hero/img-mobile.png";
-import cancelImg from "@/public/assets/img/cancel.svg";
-import AboutMain from "../about/page";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Footer from "@/src/components/Footer";
-import Services from "../services/page";
-// import Blog from "../blog/page";
 import { useAppSelector } from "@/src/redux/hooks";
 
 const heroContent = {
@@ -65,47 +60,15 @@ const HomePage = () => {
                 </h1>
 
                 <p
-                  className="open-sans-font p-3"
+                  className="open-sans-font p-3 mb-5 pb-5"
                   style={{ whiteSpace: "pre-line" }}
                 >
                   {heroContent.heroDescriptions}
                 </p>
-                {/* <button
-                  className="button"
-                  onClick={toggleModalOne}
-                  style={{ marginBottom: "1rem" }}
-                >
-                  <span className="button-text">{heroContent.heroBtn}</span>
-                  <span className="button-icon fa fa-arrow-right"></span>
-                </button>
-                 */}
+                
               </div>
             </div>
           </div>
-          {/* End home-details-container */}
-
-          {/* Start Modal for About More */}
-          <Modal
-            isOpen={isOpen}
-            onRequestClose={toggleModalOne}
-            contentLabel="My dialog"
-            className="custom-modal dark hero"
-            overlayClassName="custom-overlay dark"
-            closeTimeoutMS={500}
-          >
-            <div>
-              <button className="close-modal" onClick={toggleModalOne}>
-                <Image src={cancelImg} alt="close icon" />
-              </button>
-              {/* End close icon */}
-
-              <div className="box_inner about">
-                <AboutMain />
-              </div>
-            </div>
-            {/* End modal box news */}
-          </Modal>
-          {/* End  Modal for About More */}
         </div>
       </div>
       <Footer />
