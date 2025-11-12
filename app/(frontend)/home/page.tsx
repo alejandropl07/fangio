@@ -11,13 +11,13 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Dos experiencias que enamoran: Asia de Cuba & Fangio Habana",
   heroDesignation: "",
-  heroDescriptions: `Es un verdadero placer presentarles dos espacios que celebran la magia de la gastronomía desde miradas distintas, pero igualmente memorables: Asia de Cuba y Fangio Habana. Ambos nacen del deseo de crear momentos que permanezcan, de ofrecer sabores que conecten con la emoción y de recibir a cada invitado con un sentido profundo de hospitalidad y excelencia.
+  heroDescriptions: `Es un placer presentarles dos espacios que celebran la magia de la gastronomía desde miradas distintas, pero igualmente memorables: Asia de Cuba y Fangio Habana. Ambos nacen del deseo de crear momentos que permanezcan, de ofrecer sabores que conecten con la emoción y de recibir a cada invitado con un sentido profundo de hospitalidad y excelencia.
 
-Asia de Cuba es un viaje sensorial donde Oriente y el Caribe se encuentran con armonía y sorpresa. Sus platos, llenos de color, textura y energía, despiertan curiosidad y entusiasmo desde el primer bocado. Es un lugar que vibra: moderno, luminoso, pensado para quienes disfrutan descubrir nuevos sabores sin renunciar a la calidez de lo local.
+Asia de Cuba es un viaje sensorial donde Oriente y el Caribe se encuentran con armonía y sorpresa. Sus platos, llenos de color, textura y energía, despiertan curiosidad y entusiasmo desde el primer bocado. 
 
-Fangio Habana, en cambio, abraza la elegancia serena y el encanto de lo clásico. Su cocina reinterpreta tradiciones con un respeto profundo por el buen gusto, ofreciendo creaciones que reconfortan, emocionan y despiertan nostalgia. Es un espacio donde el tiempo parece detenerse, donde cada detalle —del servicio al ambiente— está concebido para que los comensales se sientan cuidados y apreciados.
+Fangio Habana, en cambio, abraza la elegancia serena y el encanto de lo clásico. Su cocina reinterpreta tradiciones con un respeto profundo por el buen gusto, ofreciendo creaciones que reconfortan, emocionan y despiertan nostalgia. 
 
-Juntos, estos dos restaurantes prometen regalar experiencias que conmuevan, inspiren y reúnan. Les invitamos a descubrirlos y a dejarse sorprender por la sensibilidad, el sabor y la dedicación que los hacen únicos.`,
+Juntos, estos dos restaurantes prometen regalar experiencias que conmuevan, inspiren y reúnan. Les invitamos a descubrirlos y a dejarse sorprender por la sensibilidad, el sabor y la dedicación que los hacen únicos.`,
 
   // heroBtn: "Más sobre nosotros",
 };
