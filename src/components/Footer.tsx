@@ -29,7 +29,7 @@ export default function Footer() {
         data-aos="fade-up"
         data-aos-duration="1200"
       >
-        <h1 className="mt-5">
+        <h1 >
           nuestras <span>redes</span>
         </h1>
         <span className="title-bg">Redes</span>
