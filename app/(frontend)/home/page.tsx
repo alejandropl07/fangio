@@ -11,13 +11,11 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Dos experiencias que enamoran: Asia de Cuba & Fangio Habana",
   heroDesignation: "",
-  heroDescriptions: `Es un placer presentarles dos espacios que celebran la magia de la gastronomía desde miradas distintas, pero igualmente memorables: Asia de Cuba y Fangio Habana. Ambos nacen del deseo de crear momentos que permanezcan, de ofrecer sabores que conecten con la emoción y de recibir a cada invitado con un sentido profundo de hospitalidad y excelencia.
+  heroDescriptions: `Eres de la casa y por eso queremos invitarte a celebrar la magia de la gastronomía desde dos miradas distintas, pero igualmente memorables: Asia de Cuba y Fangio Habana.
 
-Asia de Cuba es un viaje sensorial donde Oriente y el Caribe se encuentran con armonía y sorpresa. Sus platos, llenos de color, textura y energía, despiertan curiosidad y entusiasmo desde el primer bocado. 
+                  Prometemos regalar experiencias que conmuevan, inspiren y reúnan. Déjate sorprender por la sensibilidad, el sabor y la dedicación que nos hacen únicos. 
 
-Fangio Habana, en cambio, abraza la elegancia serena y el encanto de lo clásico. Su cocina reinterpreta tradiciones con un respeto profundo por el buen gusto, ofreciendo creaciones que reconfortan, emocionan y despiertan nostalgia. 
-
-Juntos, estos dos restaurantes prometen regalar experiencias que conmuevan, inspiren y reúnan. Les invitamos a descubrirlos y a dejarse sorprender por la sensibilidad, el sabor y la dedicación que los hacen únicos.`,
+                  Te esperamos.`,
 
   // heroBtn: "Más sobre nosotros",
 };
@@ -60,12 +58,11 @@ const HomePage = () => {
                 </h1>
 
                 <p
-                  className="open-sans-font p-3 mb-5 pb-5"
+                  className="open-sans-font p-3"
                   style={{ whiteSpace: "pre-line" }}
                 >
                   {heroContent.heroDescriptions}
                 </p>
-                
               </div>
             </div>
           </div>
